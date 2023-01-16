@@ -16,7 +16,7 @@ class CategoryViewSet(viewsets.ModelViewSet):
 
 
 class ExecutorViewSet(viewsets.ModelViewSet):
-    """Получаем список исполнителей."""
+    """Список исполнителей."""
     queryset = Executor.objects.all()
     serializer_class = ExecutorSerializer
     # permission_classes = [
@@ -26,7 +26,7 @@ class ExecutorViewSet(viewsets.ModelViewSet):
 
 
 class DocumentViewSet(viewsets.ModelViewSet):
-    """Получаем список документов."""
+    """Список документов."""
     queryset = Documents.objects.all()
     serializer_class = DocumentsSerializer
     # permission_classes = [

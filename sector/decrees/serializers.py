@@ -14,7 +14,7 @@ class CategorySerializer(serializers.ModelSerializer):
 
 
 class ExecutorSerializer(serializers.ModelSerializer):
-    """Список исполнителейю."""
+    """Список исполнителей."""
 
     class Meta:
         model = Executor
@@ -22,7 +22,7 @@ class ExecutorSerializer(serializers.ModelSerializer):
 
 
 class DocumentsSerializer(serializers.ModelSerializer):
-    """Список исполнителейю."""
+    """Список документов."""
 
     class Meta:
         model = Documents
