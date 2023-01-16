@@ -8,4 +8,3 @@ admin.site.register(Category)
 admin.site.register(Executor)
 
 admin.site.register(Documents)
-

@@ -26,4 +26,14 @@ class DocumentsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Documents
-        fields = ('type', 'title', 'number', 'date_create', 'pub_date', 'executor', 'file', 'author', 'under_document')
+        fields = (
+            'type',
+            'title',
+            'number',
+            'date_create',
+            'pub_date',
+            'executor',
+            'file',
+            'author',
+            'under_document'
+        )

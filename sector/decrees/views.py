@@ -1,13 +1,8 @@
-from django.shortcuts import render
-from django.shortcuts import get_object_or_404
 from rest_framework import viewsets
-from rest_framework import viewsets
-from .mixins import CreateListDestroyModelViewSet
 from .models import Category, Executor, Documents
 from .serializers import (
     CategorySerializer, ExecutorSerializer, DocumentsSerializer
 )
-from .permissions import IsAdminOrReadOnly
 
 
 class CategoryViewSet(viewsets.ModelViewSet):

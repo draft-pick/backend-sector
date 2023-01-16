@@ -1,9 +1,6 @@
 from django.db import models
 from django.contrib.auth import get_user_model
-from uuid import uuid4
-
 import datetime as dt
-import os
 
 User = get_user_model()
 
@@ -24,7 +21,6 @@ class Category(models.Model):
     class Meta:
         verbose_name = 'Категория'
         verbose_name_plural = 'Категории'
-
 
 
 class Executor(models.Model):
