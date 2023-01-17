@@ -38,7 +38,7 @@ jobs:
           sudo docker pull draftpick/backend-sector
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 draftpick/backend-sector
+          sudo docker-compose up -d
   send_message:
     name: Send Telegram message
     runs-on: ubuntu-latest

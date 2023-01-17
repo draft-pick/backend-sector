@@ -78,4 +78,4 @@ class Documents(models.Model):
     class Meta:
         ordering = ['-pub_date']
         verbose_name = 'Документ'
-        verbose_name_plural = 'Документы'
+        verbose_name_plural = 'Список документов'
